@@ -1,16 +1,38 @@
-plugins {
-    id 'java'
-}
+buildscript {
+    ext {
 
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+
+    }
+}
 group 'cn.letcode'
 version '1.0'
 
-sourceCompatibility = 1.8
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
 
 repositories {
+    mavenLocal()
     mavenCentral()
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+ext {
+    junitVersion = '4.12'
+    libs = [
+            'junit': 'junit:junit:' + junitVersion
+    ]
 }

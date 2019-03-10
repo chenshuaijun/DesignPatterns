@@ -1,4 +1,4 @@
-package cn.letcode.observe.observer02;
+package cn.letcode.observe.observe02;
 
 public interface Observer {
     public void update();

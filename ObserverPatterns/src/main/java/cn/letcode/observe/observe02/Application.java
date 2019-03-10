@@ -1,4 +1,4 @@
-package cn.letcode.observe.observer02;
+package cn.letcode.observe.observe02;
 
 public class Application {
     public static void main(String[] args) {

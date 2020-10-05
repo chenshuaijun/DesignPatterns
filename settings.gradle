@@ -2,4 +2,5 @@ rootProject.name = 'DesignPatterns'
 include 'ObjectOrientedPrinciple'
 include 'CommandPatterns'
 include 'ObserverPatterns'
+include 'DecorativePattern'
 
